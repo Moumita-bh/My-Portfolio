@@ -1,0 +1,105 @@
+.project-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #fff;
+    width: 100%;
+    padding-top: 10rem;
+}
+  
+.project-navbar h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+  
+.project-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensure cards wrap to the next line */
+    width: 100%;
+    padding: 0 2rem; /* Optional padding for the container */
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 500px; /* Increased card width */
+    height: auto;
+    box-sizing: border-box; /* Ensure padding and width are respected */
+    margin-bottom: 2rem; /* Space between rows */
+}
+
+.project-image {
+    width: 100%; /* Decreased image width */
+    height: 200px; /* Set a specific height for images */
+    border-radius: 4px;
+    object-fit: cover;
+    margin-bottom: 1rem; /* Space between image and title */
+}
+  
+.project-card h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0 0.5rem;
+    color: #333;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+  
+.react-logo {
+    width: 12px; /* Decreased React logo size */
+    height: 12px; /* Decreased React logo size */
+}
+  
+.project-card p {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+  
+.project-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+  
+.button {
+    text-decoration: none;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+  
+.github-button {
+    background-color: #333;
+    color: #fff;
+}
+  
+.github-button:hover {
+    background-color: #555;
+}
+  
+.website-button {
+    background-color: #61dafb;
+    color: #fff;
+}
+  
+.website-button:hover {
+    background-color: #21a1f1;
+}

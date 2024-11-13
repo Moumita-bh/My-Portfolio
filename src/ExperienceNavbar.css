@@ -1,0 +1,51 @@
+.experience-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    width: 100%;
+    padding-top: 5rem;
+  }
+  
+  .experience-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .experience-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    width: 100%;
+    max-width: 1000px; /* Adjust width as necessary */
+  }
+  
+  .experience-column {
+    width: 45%; /* Each column takes up about half the width */
+  }
+  
+  .experience-column h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .experience-column h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .experience-column p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+  }

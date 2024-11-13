@@ -1,0 +1,31 @@
+.skill-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 0; /* Removes any top margin */
+    padding-top: 5rem;
+  }
+  
+  
+  .skill-navbar h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .skill-images {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .skill-images img {
+    width: 150px; /* Increased size */
+    height: 150px; /* Increased size */
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
